@@ -6,13 +6,11 @@
 
 **Open-source software for making BBQ hardware work for you.**
 
-I love BBQ.
+I love BBQ. I love the connection of machines to machines. This project is that.
 
-Not just throwing a few burgers on a grill, but the whole thing: smoking meat for hours, managing temperatures, experimenting with different cookers, watching a brisket slowly come together, trying something new, getting it wrong occasionally, and generally spending far too much time thinking about fire, smoke and meat.
+BBQ is not just throwing a few burgers on a grill, or grilling some cheap chicken from ALDI, but the whole thing: smoking meat for hours, managing temperatures, experimenting with different cookers, watching a brisket slowly come together, trying something new, getting it wrong occasionally, and generally spending far too much time thinking about fire, smoke and meat.
 
-I use a Weber kettle, a Weber Smokey Mountain and a Weber iGrill 2 with multiple temperature probes. The iGrill hardware is actually pretty good.
-
-The problem was the software.
+I use a Weber Master Touch kettle, a Weber Smokey Mountain and a Weber iGrill 2 with multiple temperature probes. The iGrill hardware works perfectly well. The problem was the software.
 
 The iGrill App wanted to live on my phone over Bluetooth. I wanted to see the temperatures on my PC. I wanted Wi-Fi. I wanted multiple dashboards. I wanted to be able to use the data somewhere else, connect it to other things and generally do more with a perfectly good piece of hardware I already owned.
 
@@ -26,15 +24,15 @@ I also wasn't starting completely from scratch.
 
 One of the great things about open source is discovering that other people have already looked at a piece of hardware and thought, "I wonder what else I can make this do?"
 
-A number of iGrill projects helped me understand what was possible, particularly bendikwa/esphome-igrill, alongside jaydenk/igrill-remote-server, pilot1981/weber-igrill-integration-HA, 1mckenna/esp32_iGrill and sanjay900/igrill.
+A number of iGrill projects helped me understand what was possible, particularly **bendikwa/esphome-igrill, alongside jaydenk/igrill-remote-server, pilot1981/weber-igrill-integration-HA, 1mckenna/esp32_iGrill and sanjay900/igrill**.
 
 pitblu isn't a fork of those projects and doesn't copy their implementations. They were research, reference and inspiration: people who had already done the hard work of poking at the iGrill protocol, figuring out how it behaves and sharing what they'd learned.
 
-Without that work, pitblu would have been a much harder project to start.
-
-The entirety of pitblu has been built using me + ChatGPT/Codex and is moving to a local development harness.
+Without that work, pitblu would have been a much harder project to start. **Thank you.**
 
 And I love that. Someone works something out, shares it, somebody else learns from it and builds something different. That feels very much in the spirit of what pitblu is supposed to be.
+
+The entirety of pitblu has been built using me + ChatGPT/Codex and is moving to a local development harness.
 
 ## The Octoblu spirit
 
@@ -62,37 +60,17 @@ I loved the technology, but honestly, the people were every bit as important.
 
 I was lucky enough to spend time with **Chris Matthieu and the Octoblu team**. I even paid my own way out to Arizona a couple of times because I wanted to work with them, learn from them and just be around what they were building.
 
-They taught me loads.
+They taught me loads. More importantly, I made some lifelong friends. It was an amazing time in my life and one I still look back on with huge fondness.
 
-More importantly, I made some lifelong friends.
+So years later, when I'm standing next to a Weber Smokey Mountain at 5am smoking a brisket I'm thinking about why my perfectly good thermometer can only really talk to one app over Bluetooth, some of that Octoblu thinking inevitably kicks back in. Which, if you move more than a couple of meters, you loose data.
 
-It was an amazing time in my life and one I still look back on with huge fondness.
+I did think about just buying a new probe set-up that worked on Wi-Fi, but why should I replace something that works perfectly well, and can I make it work better?
 
-So years later, when I'm standing next to a Weber Smokey Mountain thinking about why my perfectly good thermometer can only really talk to one app over Bluetooth, some of that Octoblu thinking inevitably kicks back in.
-
-Why should it only do that?
-
-Why can't the data go over Wi-Fi?
-
-Why can't I see it on a PC?
-
-Why can't I build another dashboard?
-
-Why can't I connect it to something else?
-
-And, ultimately:
-
-**Why should I replace something that works when I can make it work better for me?**
-
-That's the spirit behind pitblu.
-
-pitblu isn't trying to recreate Octoblu. Not remotely.
-
-It's a little BBQ project solving a very specific problem.
+That's the spirit behind pitblu. pitblu isn't trying to recreate Octoblu. Not remotely. It's a little BBQ project solving a very specific problem.
 
 But I hope a bit of that same spirit runs through it:
 
-**connect the things, expose what they can do, remove unnecessary restrictions, and let people decide what they want to build.**
+**connect the things, expose what they can do, let people decide what they want to build.**
 
 ## Project architecture
 
@@ -216,4 +194,4 @@ It's to build a small collection of well-defined components that can work togeth
 
 ---
 
-**Connect the things. Own the data. Make them work for you.**
+**Connect the things. Own the data. Smoke a brisket. or ribs. ribs are gooood!!!**
