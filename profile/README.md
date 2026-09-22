@@ -14,7 +14,7 @@ I use a Weber kettle, a Weber Smokey Mountain and a Weber iGrill 2 with multiple
 
 The problem was the software.
 
-It only really wanted to live on my phone over Bluetooth. I wanted to see the temperatures on my PC. I wanted Wi-Fi. I wanted multiple dashboards. I wanted to be able to use the data somewhere else, connect it to other things and generally do more with a perfectly good piece of hardware I already owned.
+The iGrill App wanted to live on my phone over Bluetooth. I wanted to see the temperatures on my PC. I wanted Wi-Fi. I wanted multiple dashboards. I wanted to be able to use the data somewhere else, connect it to other things and generally do more with a perfectly good piece of hardware I already owned.
 
 pitblu started as a way of getting more out of my iGrill, but it has grown into something broader: an open platform for getting temperature data out of BBQ hardware and then doing whatever you want with it.
 
