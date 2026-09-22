@@ -32,6 +32,8 @@ pitblu isn't a fork of those projects and doesn't copy their implementations. Th
 
 Without that work, pitblu would have been a much harder project to start.
 
+The entirety of pitblu has been built using me + ChatGPT/Codex and is moving to a local development harness.
+
 And I love that. Someone works something out, shares it, somebody else learns from it and builds something different. That feels very much in the spirit of what pitblu is supposed to be.
 
 ## The Octoblu spirit
