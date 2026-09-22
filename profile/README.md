@@ -1,4 +1,8 @@
 # pitblu
+<p align="center">
+  <img src="assets/pitblu-logo.png" alt="pitblu" width="320">
+</p>
+
 
 **Open-source software for making BBQ hardware work for you.**
 
